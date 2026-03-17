@@ -1,6 +1,4 @@
-<div align="center">
-  <img src="banner.svg" width="100%" alt="Dmitriy Golub"/>
-</div>
+![Dmitriy Golub](banner.svg)
 
 <br/>
 
