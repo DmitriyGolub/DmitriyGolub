@@ -30,8 +30,6 @@
     <stop offset="55%" stop-color="#3b1f6e"/>
     <stop offset="100%" stop-color="#120830"/>
   </radialGradient>
-  <filter id="gbl"><feGaussianBlur stdDeviation="8"/></filter>
-  <filter id="gbl4"><feGaussianBlur stdDeviation="4"/></filter>
   <style>
     .bob{animation:bob 3.5s ease-in-out infinite}
     @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-2.5px)}}
@@ -55,9 +53,9 @@
 </defs>
 
 <rect width="800" height="220" fill="#09080e"/>
-<ellipse cx="185" cy="175" rx="210" ry="95"  fill="url(#rg_bg)"  filter="url(#gbl)"/>
-<ellipse cx="355" cy="118" rx="65"  ry="45"  fill="url(#rg_scr)" filter="url(#gbl4)"/>
-<ellipse cx="460" cy="108" rx="45"  ry="34"  fill="url(#rg_lamp)"filter="url(#gbl4)"/>
+<ellipse cx="185" cy="175" rx="210" ry="95"  fill="url(#rg_bg)"/>
+<ellipse cx="355" cy="118" rx="65"  ry="45"  fill="url(#rg_scr)"/>
+<ellipse cx="460" cy="108" rx="45"  ry="34"  fill="url(#rg_lamp)"/>
 
 <circle cx="46"  cy="17" r="1"   fill="#fff" class="tw"/>
 <circle cx="116" cy="35" r="0.8" fill="#fff" class="tw2"/>
@@ -108,7 +106,7 @@
 </g>
 
 <g class="bob">
-  <ellipse cx="228" cy="182" rx="48" ry="7" fill="#000" opacity="0.3" filter="url(#gbl4)"/>
+  <ellipse cx="228" cy="182" rx="48" ry="7" fill="#000" opacity="0.3"/>
   <path d="M196 174 Q186 160 188 146 Q190 136 204 133 Q218 130 230 136 Q242 142 242 154 Q242 168 230 176 Q218 180 204 180 Q198 178 196 174Z" fill="url(#fur)"/>
   <ellipse cx="216" cy="160" rx="18" ry="20" fill="url(#belly)" opacity="0.7"/>
   <path d="M196 174 Q190 172 188 176 Q188 182 198 182 Q205 182 204 178Z" fill="#c4b4dc"/>
