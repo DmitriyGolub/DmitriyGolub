@@ -1,0 +1,108 @@
+<svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <style>
+    .t { font-family: 'Courier New', monospace; }
+    .fade { animation: fi 0.4s 0.1s both; }
+    @keyframes fi { from{opacity:0} to{opacity:1} }
+
+    .bar { height:6px; rx:3; animation-fill-mode:both; animation-iteration-count:1; }
+
+    .b1  { animation: fill1  1.4s 0.2s ease-out both 1; }
+    .b2  { animation: fill2  1.4s 0.4s ease-out both 1; }
+    .b3  { animation: fill3  1.4s 0.6s ease-out both 1; }
+    .b4  { animation: fill4  1.4s 0.8s ease-out both 1; }
+    .b5  { animation: fill5  1.4s 1.0s ease-out both 1; }
+    .b6  { animation: fill6  1.4s 1.2s ease-out both 1; }
+    .b7  { animation: fill7  1.4s 1.4s ease-out both 1; }
+    .b8  { animation: fill8  1.4s 1.6s ease-out both 1; }
+    .b9  { animation: fill9  1.4s 1.8s ease-out both 1; }
+    .b10 { animation: fill10 1.4s 2.0s ease-out both 1; }
+    .b11 { animation: fill11 1.4s 2.2s ease-out both 1; }
+
+    @keyframes fill1  { from{width:0} to{width:161px} }
+    @keyframes fill2  { from{width:0} to{width:161px} }
+    @keyframes fill3  { from{width:0} to{width:184px} }
+    @keyframes fill4  { from{width:0} to{width:161px} }
+    @keyframes fill5  { from{width:0} to{width:207px} }
+    @keyframes fill6  { from{width:0} to{width:207px} }
+    @keyframes fill7  { from{width:0} to{width:207px} }
+    @keyframes fill8  { from{width:0} to{width:207px} }
+    @keyframes fill9  { from{width:0} to{width:184px} }
+    @keyframes fill10 { from{width:0} to{width:207px} }
+    @keyframes fill11 { from{width:0} to{width:189px} }
+  </style>
+</defs>
+
+<rect width="800" height="300" rx="10" fill="#0d0b16"/>
+<text x="28" y="36" font-size="11" fill="#4a4468" class="t" letter-spacing="3">// SKILLS</text>
+<line x1="28" y1="46" x2="772" y2="46" stroke="#1a1628" stroke-width="0.5"/>
+
+<!-- ── LEFT ── -->
+<text x="28" y="72" font-size="11" fill="#8b5cf6" class="t" letter-spacing="2">3D &amp; GRAPHICS</text>
+
+<text x="28" y="94" font-size="12" fill="#94a3b8" class="t">Three.js</text>
+<rect x="130" y="86" width="220" height="6" rx="3" fill="#1a1628"/>
+<rect x="130" y="86" width="0"   height="6" rx="3" fill="#8b5cf6" class="b1"/>
+<text x="358" y="94" font-size="11" fill="#4a4468" class="t">70%</text>
+
+<text x="28" y="114" font-size="12" fill="#94a3b8" class="t">WebGL / GLSL</text>
+<rect x="130" y="106" width="220" height="6" rx="3" fill="#1a1628"/>
+<rect x="130" y="106" width="0"   height="6" rx="3" fill="#7c3aed" class="b2"/>
+<text x="358" y="114" font-size="11" fill="#4a4468" class="t">70%</text>
+
+<text x="28" y="134" font-size="12" fill="#94a3b8" class="t">PixiJS</text>
+<rect x="130" y="126" width="220" height="6" rx="3" fill="#1a1628"/>
+<rect x="130" y="126" width="0"   height="6" rx="3" fill="#6d28d9" class="b3"/>
+<text x="358" y="134" font-size="11" fill="#4a4468" class="t">80%</text>
+
+<text x="28" y="164" font-size="11" fill="#60a5fa" class="t" letter-spacing="2">FRONTEND</text>
+
+<text x="28" y="184" font-size="12" fill="#94a3b8" class="t">React</text>
+<rect x="130" y="176" width="220" height="6" rx="3" fill="#1a1628"/>
+<rect x="130" y="176" width="0"   height="6" rx="3" fill="#3b82f6" class="b4"/>
+<text x="358" y="184" font-size="11" fill="#4a4468" class="t">70%</text>
+
+<text x="28" y="204" font-size="12" fill="#94a3b8" class="t">TypeScript</text>
+<rect x="130" y="196" width="220" height="6" rx="3" fill="#1a1628"/>
+<rect x="130" y="196" width="0"   height="6" rx="3" fill="#2563eb" class="b5"/>
+<text x="358" y="204" font-size="11" fill="#4a4468" class="t">90%</text>
+
+<text x="28" y="224" font-size="12" fill="#94a3b8" class="t">Node.js</text>
+<rect x="130" y="216" width="220" height="6" rx="3" fill="#1a1628"/>
+<rect x="130" y="216" width="0"   height="6" rx="3" fill="#1d4ed8" class="b6"/>
+<text x="358" y="224" font-size="11" fill="#4a4468" class="t">90%</text>
+
+<!-- ── RIGHT ── -->
+<text x="420" y="72" font-size="11" fill="#f59e0b" class="t" letter-spacing="2">BACKEND</text>
+
+<text x="420" y="94" font-size="12" fill="#94a3b8" class="t">Java</text>
+<rect x="510" y="86" width="220" height="6" rx="3" fill="#1a1628"/>
+<rect x="510" y="86" width="0"   height="6" rx="3" fill="#d97706" class="b7"/>
+<text x="738" y="94" font-size="11" fill="#4a4468" class="t">90%</text>
+
+<text x="420" y="110" font-size="12" fill="#94a3b8" class="t">Spring</text>
+<text x="420" y="124" font-size="12" fill="#94a3b8" class="t">WebFlux</text>
+<rect x="510" y="106" width="220" height="6" rx="3" fill="#1a1628"/>
+<rect x="510" y="106" width="0"   height="6" rx="3" fill="#b45309" class="b8"/>
+<text x="738" y="114" font-size="11" fill="#4a4468" class="t">90%</text>
+
+<text x="420" y="144" font-size="12" fill="#94a3b8" class="t">PostgreSQL</text>
+<rect x="510" y="136" width="220" height="6" rx="3" fill="#1a1628"/>
+<rect x="510" y="136" width="0"   height="6" rx="3" fill="#92400e" class="b9"/>
+<text x="738" y="144" font-size="11" fill="#4a4468" class="t">80%</text>
+
+<text x="420" y="174" font-size="11" fill="#1D9E75" class="t" letter-spacing="2">TOOLING</text>
+
+<text x="420" y="194" font-size="12" fill="#94a3b8" class="t">MCP / AI</text>
+<rect x="510" y="186" width="220" height="6" rx="3" fill="#1a1628"/>
+<rect x="510" y="186" width="0"   height="6" rx="3" fill="#0f6e56" class="b10"/>
+<text x="738" y="194" font-size="11" fill="#4a4468" class="t">90%</text>
+
+<text x="420" y="214" font-size="12" fill="#94a3b8" class="t">Docker</text>
+<rect x="510" y="206" width="220" height="6" rx="3" fill="#1a1628"/>
+<rect x="510" y="206" width="0"   height="6" rx="3" fill="#0e5c48" class="b11"/>
+<text x="738" y="214" font-size="11" fill="#4a4468" class="t">82%</text>
+
+<line x1="28" y1="268" x2="772" y2="268" stroke="#1a1628" stroke-width="0.5"/>
+<text x="28" y="285" font-size="10" fill="#2a2440" class="t" letter-spacing="1">8+ years production experience</text>
+</svg>

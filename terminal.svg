@@ -1,0 +1,97 @@
+<svg viewBox="0 0 800 310" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <style>
+    .t { font-family: 'Courier New', monospace; }
+
+    /* typing effect via clip-rect width animation */
+    .type { overflow: hidden; white-space: pre; }
+
+    .cur { animation: cur 1s step-end infinite; }
+    @keyframes cur { 0%,100%{opacity:1} 50%{opacity:0} }
+
+    /* prompt appears instantly */
+    .p0 { animation: reveal 0s 0s both; }
+
+    /* each line types out char by char using width clip */
+    .t1  { animation: type1  1.2s steps(12,end) 0.4s both; width:0; display:inline-block; overflow:hidden; vertical-align:top; }
+    .t2  { animation: type2  0.6s steps(7,end)  1.7s both; width:0; display:inline-block; overflow:hidden; vertical-align:top; }
+    .t3  { animation: type3  1.0s steps(18,end) 2.4s both; width:0; display:inline-block; overflow:hidden; vertical-align:top; }
+    .t4  { animation: type4  0.8s steps(14,end) 3.5s both; width:0; display:inline-block; overflow:hidden; vertical-align:top; }
+    .t5  { animation: type5  0.6s steps(11,end) 4.4s both; width:0; display:inline-block; overflow:hidden; vertical-align:top; }
+    .t6  { animation: type6  1.4s steps(42,end) 5.1s both; width:0; display:inline-block; overflow:hidden; vertical-align:top; }
+    .t7  { animation: type7  1.2s steps(34,end) 6.6s both; width:0; display:inline-block; overflow:hidden; vertical-align:top; }
+    .t8  { animation: type8  1.2s steps(36,end) 7.9s both; width:0; display:inline-block; overflow:hidden; vertical-align:top; }
+    .t9  { animation: type9  1.0s steps(30,end) 9.2s both; width:0; display:inline-block; overflow:hidden; vertical-align:top; }
+    .t10 { animation: type10 0.4s steps(2,end) 10.3s both; width:0; display:inline-block; overflow:hidden; vertical-align:top; }
+
+    @keyframes reveal  { from{opacity:0} to{opacity:1} }
+    @keyframes type1   { from{width:0} to{width:90px}  }
+    @keyframes type2   { from{width:0} to{width:58px}  }
+    @keyframes type3   { from{width:0} to{width:148px} }
+    @keyframes type4   { from{width:0} to{width:110px} }
+    @keyframes type5   { from{width:0} to{width:85px}  }
+    @keyframes type6   { from{width:0} to{width:342px} }
+    @keyframes type7   { from{width:0} to{width:280px} }
+    @keyframes type8   { from{width:0} to{width:295px} }
+    @keyframes type9   { from{width:0} to{width:248px} }
+    @keyframes type10  { from{width:0} to{width:18px}  }
+  </style>
+</defs>
+
+<rect width="800" height="310" rx="10" fill="#0d0b16"/>
+<!-- titlebar -->
+<rect width="800" height="36" rx="10" fill="#1a1628"/>
+<rect x="0" y="18" width="800" height="18" fill="#1a1628"/>
+<circle cx="20" cy="18" r="6" fill="#e24b4b"/>
+<circle cx="40" cy="18" r="6" fill="#f59e0b"/>
+<circle cx="60" cy="18" r="6" fill="#22c55e"/>
+<text x="400" y="23" font-size="11" fill="#4a4468" class="t" text-anchor="middle">dmitrii@wicked ~ profile</text>
+
+<!-- prompt -->
+<text x="28" y="65" font-size="13" fill="#1D9E75" class="t">~/profile $</text>
+<text x="110" y="65" font-size="13" fill="#e8e4f8" class="t"> cat dev.js</text>
+
+<!-- line 1: const dev = { -->
+<text x="28" y="90" font-size="13" fill="#8b5cf6" class="t">const</text>
+<text x="72" y="90" font-size="13" fill="#60a5fa" class="t"> dev</text>
+<text x="100" y="90" font-size="13" fill="#e8e4f8" class="t"> = {</text>
+
+<!-- line 2: name -->
+<text x="28" y="112" font-size="13" fill="#94a3b8" class="t">  name:</text>
+<text x="95" y="112" font-size="13" fill="#a78bfa" class="t t1">"Dmitrii Golub",</text>
+
+<!-- line 3: role -->
+<text x="28" y="132" font-size="13" fill="#94a3b8" class="t">  role:</text>
+<text x="95" y="132" font-size="13" fill="#a78bfa" class="t t2">"Software Engineer",</text>
+
+<!-- line 4: exp -->
+<text x="28" y="152" font-size="13" fill="#94a3b8" class="t">  exp:</text>
+<text x="95" y="152" font-size="13" fill="#a78bfa" class="t t3">"8+ years production",</text>
+
+<!-- line 5: company -->
+<text x="28" y="172" font-size="13" fill="#94a3b8" class="t">  company:</text>
+<text x="112" y="172" font-size="13" fill="#a78bfa" class="t t4">"WickedGames",</text>
+
+<!-- line 6: comment -->
+<text x="28" y="192" font-size="13" fill="#4a4468" class="t t5">  // stack</text>
+
+<!-- line 7: 3d -->
+<text x="28" y="212" font-size="13" fill="#94a3b8" class="t">  3d:</text>
+<text x="72" y="212" font-size="13" fill="#f59e0b" class="t t6">["Three.js", "WebGL", "GLSL", "PixiJS"],</text>
+
+<!-- line 8: fe -->
+<text x="28" y="232" font-size="13" fill="#94a3b8" class="t">  fe:</text>
+<text x="72" y="232" font-size="13" fill="#f59e0b" class="t t7">["React", "Next.js", "TypeScript", "Node"],</text>
+
+<!-- line 9: be -->
+<text x="28" y="252" font-size="13" fill="#94a3b8" class="t">  be:</text>
+<text x="72" y="252" font-size="13" fill="#f59e0b" class="t t8">["Java", "Spring WebFlux", "PostgreSQL"],</text>
+
+<!-- line 10: mcp -->
+<text x="28" y="272" font-size="13" fill="#94a3b8" class="t">  mcp:</text>
+<text x="80" y="272" font-size="13" fill="#f59e0b" class="t t9">["three.js-mcp", "pixijs-ecs-mcp"],</text>
+
+<!-- closing brace -->
+<text x="28" y="292" font-size="13" fill="#e8e4f8" class="t t10">};</text>
+<rect x="53" y="280" width="8" height="14" fill="#8b5cf6" class="cur"/>
+</svg>
