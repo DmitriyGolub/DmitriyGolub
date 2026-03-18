@@ -49,7 +49,7 @@
 
 <!-- prompt -->
 <text x="28" y="65" font-size="13" fill="#1D9E75" class="t">~/profile $</text>
-<text x="110" y="65" font-size="13" fill="#e8e4f8" class="t"> cat dev.js</text>
+<text x="110" y="65" font-size="13" fill="#e8e4f8" class="t">  cat dev.js</text>
 
 <!-- line 1: const dev = { -->
 <text x="28" y="90" font-size="13" fill="#8b5cf6" class="t">const</text>
