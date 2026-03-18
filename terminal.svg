@@ -48,8 +48,8 @@
 <text x="400" y="23" font-size="11" fill="#4a4468" class="t" text-anchor="middle">dmitrii@dev ~ profile</text>
 
 <!-- prompt -->
-<text x="28" y="65" font-size="13" fill="#1D9E75" class="t">~/profile $</text>
-<text x="110" y="65" font-size="13" fill="#e8e4f8" class="t">  cat dev.js</text>
+<text x="28" y="65" font-size="13" fill="#1D9E75" class="t">~/profile $ </text>
+<text x="110" y="65" font-size="13" fill="#e8e4f8" class="t"> cat dev.js</text>
 
 <!-- line 1: const dev = { -->
 <text x="28" y="90" font-size="13" fill="#8b5cf6" class="t">const</text>
