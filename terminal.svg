@@ -70,7 +70,7 @@
 
 <!-- line 5: company -->
 <text x="28" y="172" font-size="13" fill="#94a3b8" class="t">  company:</text>
-<text x="112" y="172" font-size="13" fill="#a78bfa" class="t t4">"WickedGames",</text>
+<text x="112" y="172" font-size="13" fill="#a78bfa" class="t t4">"ReleaseBand",</text>
 
 <!-- line 6: comment -->
 <text x="28" y="192" font-size="13" fill="#4a4468" class="t t5">  // stack</text>
